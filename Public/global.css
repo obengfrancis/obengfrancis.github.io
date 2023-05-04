@@ -1,0 +1,166 @@
+* {
+ padding:0;
+ margin: 0;
+ text-decoration: none;
+ list-style: none;
+ box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+
+nav{
+  background-color: #0c0c0c;
+  height: 80px;
+}
+.nav-logo{
+  line-height: 80px;
+  line-height: 80px;
+  padding: 0  60px;
+}
+.logo-text{
+  color: #fff;
+  font-size: 17px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+}
+nav ul li a{
+  color: #fff;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+ 
+}
+a.active,a:hover{
+  background-color: #f2f2f5;
+  transform: .5s;
+  text-decoration: none;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: #ffffff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+@media (max-width: 952px) {
+  .nav-logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 60vh;
+    background: rgba(8, 8, 8, 0.419);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+  
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+section{
+  background: url(/Public/torgersen-hall-1.jpg) no-repeat; 
+  background-size: cover;
+  height: calc(50vh - 80px);
+}
+
+.card{
+ margin-left: 3rem;
+
+}
+#home-page{
+  padding-top: 3rem;
+  transform: translateX(70px);
+}
+
+.show{
+  color: rgb(0, 21, 255);
+  text-decoration:none;
+}
+.show:hover{
+  color: #c80606;
+  text-decoration:none;
+}
+.cv {
+  color: rgb(19, 92, 201);
+  text-decoration:none;
+}
+  
+.cv:hover{
+  color: #c80606;
+  text-decoration:none;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer-link{
+  line-height: 20px;
+}
+.link:hover{
+  color: #0c0c0c;
+  text-decoration: none;
+}
+  
+.copy{
+  line-height: 20px;
+}
+.footer-social-link{
+  display: flex;
+  gap: 2rem;
+  border: 0;
+  font-size: 30px;
+  line-height: 2px;
+}
+.fa-brands:hover{
+  color: #0c0c0c;
+  background-color: 0;
+}
+.fa-sharp:hover{
+  color: #0c0c0c;
+  background: 0;
+}
+
+  
