@@ -109,8 +109,8 @@ section{
 
 }
 #home-page{
-  
-  transform: translate(70px);
+  padding-top: 2rem;
+  transform: translateX(70px);
 }
 
 .show{
