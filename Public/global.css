@@ -110,7 +110,7 @@ section{
 }
 #home-page{
   padding-top: 3rem;
-  transform: translateX(70px);
+  transform: translate(70px);
 }
 
 .show{
