@@ -118,12 +118,12 @@ section::before {
 
 .card-img-top {
   border-radius: 0;
-  height: 350px;
+  height: 250px;
   object-fit: cover;
 }
 
 .card-body {
-  padding: 2.5rem;
+  padding: 2.0rem;
 }
 
 .card-title {
