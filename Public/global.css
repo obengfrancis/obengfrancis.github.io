@@ -118,7 +118,7 @@ section::before {
 
 .card-img-top {
   border-radius: 0;
-  height: 250px;
+  height: 350px;
   object-fit: cover;
 }
 
