@@ -85,7 +85,7 @@ nav ul li a.active {
 
 /* Hero Section */
 section {
-  background: url(/Public/torgersen-hall-1.jpg) no-repeat center center;
+  background: url(/Public/background.jpg) no-repeat center center;
   background-size: cover;
   height: calc(50vh - 80px);
   position: relative;
