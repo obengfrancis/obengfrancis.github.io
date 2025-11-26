@@ -83,13 +83,14 @@ nav ul li a.active {
   display: none;
 }
 
-/* Hero Section */
+/* Hero Section 
 section {
   background: url(/Public/image1.jpg) no-repeat center center;
   background-size: cover;
   height: calc(50vh - 80px);
   position: relative;
 }
+*/
 
 section::before {
   content: '';
