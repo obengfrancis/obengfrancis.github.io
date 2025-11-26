@@ -85,7 +85,7 @@ nav ul li a.active {
 }
 
 
-/* Hero Section - Updated with centered small background */
+/* Hero Section - Updated with centered small background 
 section {
   background-color: #f8f9fa;
   height: calc(50vh - 80px);
@@ -109,6 +109,7 @@ section::before {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+*/
 
 /* Hero Section 
 section {
